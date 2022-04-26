@@ -1,0 +1,30 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+  line-height: normal;
+}
+pre code {
+  white-space: inherit;
+  background-color:silver;
+}
+
+.notes{
+  padding: 5px;
+  border-radius: 5px;
+  background-color:Khaki;
+
+}
+
+pre.output{
+  background-color:#333 !important;
+  color:#EEE !important;
+  border-radius: 5px !important;
+}
+
