@@ -416,7 +416,7 @@ div.csl-indent {
 <span id="cb23-12"><a href="stm.html#cb23-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="cn">NULL</span>,</span>
 <span id="cb23-13"><a href="stm.html#cb23-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Model diagnostics by number of topics&quot;</span>,</span>
 <span id="cb23-14"><a href="stm.html#cb23-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">&quot;These diagnostics indicate that a good number of topics would be around 60&quot;</span>)</span></code></pre></div>
-<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-18-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-19-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="stm.html#cb24-1" aria-hidden="true" tabindex="-1"></a>k_result <span class="sc">%&gt;%</span></span>
 <span id="cb24-2"><a href="stm.html#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(K, exclusivity, semantic_coherence) <span class="sc">%&gt;%</span></span>
 <span id="cb24-3"><a href="stm.html#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(K <span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">16</span>, <span class="dv">24</span>, <span class="dv">64</span>)) <span class="sc">%&gt;%</span></span>
@@ -428,7 +428,7 @@ div.csl-indent {
 <span id="cb24-9"><a href="stm.html#cb24-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">&quot;Exclusivity&quot;</span>,</span>
 <span id="cb24-10"><a href="stm.html#cb24-10" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Comparing exclusivity and semantic coherence&quot;</span>,</span>
 <span id="cb24-11"><a href="stm.html#cb24-11" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">&quot;Models with fewer topics have higher semantic coherence for more topics, but lower exclusivity&quot;</span>)</span></code></pre></div>
-<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-19-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-20-1.png" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="exploring-model" class="section level3 hasAnchor" number="9.0.6">
 <h3><span class="header-section-number">9.0.6</span> Exploring model<a href="stm.html#exploring-model" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -494,7 +494,7 @@ div.csl-indent {
 <span id="cb29-29"><a href="stm.html#cb29-29" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">family=</span><span class="st">&quot;Heiti TC Light&quot;</span>),</span>
 <span id="cb29-30"><a href="stm.html#cb29-30" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">13</span>)) <span class="sc">+</span> </span>
 <span id="cb29-31"><a href="stm.html#cb29-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div>
-<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-20-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-21-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="stm.html#cb30-1" aria-hidden="true" tabindex="-1"></a>gamma_terms <span class="sc">%&gt;%</span></span>
 <span id="cb30-2"><a href="stm.html#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(topic, gamma, terms) </span></code></pre></div>
 <pre class="output"><code>## # A tibble: 12 × 3

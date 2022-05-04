@@ -52,10 +52,6 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<script src="libs/viz-1.8.2/viz.js"></script>
-<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
-<script src="libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 <style type="text/css">
@@ -169,7 +165,41 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="3" data-path="corpus.html"><a href="corpus.html"><i class="fa fa-check"></i><b>3</b> Corpus</a></li>
 <li class="chapter" data-level="4" data-path="tokenization.html"><a href="tokenization.html"><i class="fa fa-check"></i><b>4</b> Tokenization</a></li>
-<li class="chapter" data-level="5" data-path="representation.html"><a href="representation.html"><i class="fa fa-check"></i><b>5</b> Representation</a></li>
+<li class="chapter" data-level="5" data-path="representation.html"><a href="representation.html"><i class="fa fa-check"></i><b>5</b> Representation</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="representation.html"><a href="representation.html#corpus-dataframe"><i class="fa fa-check"></i><b>5.1</b> Corpus-dataframe</a></li>
+<li class="chapter" data-level="5.2" data-path="representation.html"><a href="representation.html#doc-term-pair-unnested"><i class="fa fa-check"></i><b>5.2</b> Doc-Term-Pair (unnested)</a></li>
+<li class="chapter" data-level="5.3" data-path="representation.html"><a href="representation.html#doc-term-count-term-doc"><i class="fa fa-check"></i><b>5.3</b> Doc-Term-Count (Term-Doc)</a></li>
+<li class="chapter" data-level="5.4" data-path="representation.html"><a href="representation.html#doc-doc-count"><i class="fa fa-check"></i><b>5.4</b> Doc-Doc-Count</a></li>
+<li class="chapter" data-level="5.5" data-path="representation.html"><a href="representation.html#term-term-count"><i class="fa fa-check"></i><b>5.5</b> Term-Term-Count</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="representation.html"><a href="representation.html#term-term-count-by-collocation"><i class="fa fa-check"></i><b>5.5.1</b> Term-Term-Count-by-Collocation</a></li>
+<li class="chapter" data-level="5.5.2" data-path="representation.html"><a href="representation.html#term-term-count-by-bigram"><i class="fa fa-check"></i><b>5.5.2</b> Term-Term-Count-by-bigram</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="representation.html"><a href="representation.html#pivot-wide-to-matrix"><i class="fa fa-check"></i><b>5.6</b> Pivot-wide-to-matrix</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="representation.html"><a href="representation.html#doc-term-matrix-tidy"><i class="fa fa-check"></i><b>5.6.1</b> Doc-Term-Matrix-tidy</a></li>
+<li class="chapter" data-level="5.6.2" data-path="representation.html"><a href="representation.html#term-document-matrix-tidy"><i class="fa fa-check"></i><b>5.6.2</b> Term-Document-Matrix-tidy</a></li>
+<li class="chapter" data-level="5.6.3" data-path="representation.html"><a href="representation.html#term-term-matrix"><i class="fa fa-check"></i><b>5.6.3</b> Term-Term-Matrix</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="representation.html"><a href="representation.html#tidytext-to-matrix"><i class="fa fa-check"></i><b>5.7</b> tidytext-to-matrix</a>
+<ul>
+<li class="chapter" data-level="5.7.1" data-path="representation.html"><a href="representation.html#sparsettm"><i class="fa fa-check"></i><b>5.7.1</b> sparse(ttm)</a></li>
+<li class="chapter" data-level="5.7.2" data-path="representation.html"><a href="representation.html#dfm"><i class="fa fa-check"></i><b>5.7.2</b> dfm</a></li>
+<li class="chapter" data-level="5.7.3" data-path="representation.html"><a href="representation.html#dtm"><i class="fa fa-check"></i><b>5.7.3</b> dtm</a></li>
+<li class="chapter" data-level="5.7.4" data-path="representation.html"><a href="representation.html#tdm"><i class="fa fa-check"></i><b>5.7.4</b> tdm</a></li>
+</ul></li>
+<li class="chapter" data-level="5.8" data-path="representation.html"><a href="representation.html#dimension-reduction"><i class="fa fa-check"></i><b>5.8</b> Dimension Reduction</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="representation.html"><a href="representation.html#t-sne-on-tt-affmatrix"><i class="fa fa-check"></i><b>5.8.1</b> t-SNE on tt affmatrix</a></li>
+<li class="chapter" data-level="5.8.2" data-path="representation.html"><a href="representation.html#t-sne-on-tdm-tidy"><i class="fa fa-check"></i><b>5.8.2</b> t-SNE on tdm-tidy</a></li>
+<li class="chapter" data-level="5.8.3" data-path="representation.html"><a href="representation.html#svd-on-affmatrix"><i class="fa fa-check"></i><b>5.8.3</b> SVD on affmatrix</a></li>
+<li class="chapter" data-level="5.8.4" data-path="representation.html"><a href="representation.html#svd-on-sparse_ttm"><i class="fa fa-check"></i><b>5.8.4</b> SVD on sparse_ttm</a></li>
+<li class="chapter" data-level="5.8.5" data-path="representation.html"><a href="representation.html#svd-on-tdm"><i class="fa fa-check"></i><b>5.8.5</b> SVD on tdm</a></li>
+<li class="chapter" data-level="5.8.6" data-path="representation.html"><a href="representation.html#svd-on-dtm"><i class="fa fa-check"></i><b>5.8.6</b> SVD on dtm</a></li>
+<li class="chapter" data-level="5.8.7" data-path="representation.html"><a href="representation.html#viz-dim-reduction"><i class="fa fa-check"></i><b>5.8.7</b> Viz Dim Reduction</a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="6" data-path="keyness.html"><a href="keyness.html"><i class="fa fa-check"></i><b>6</b> Keyness</a></li>
 <li class="chapter" data-level="7" data-path="collocation.html"><a href="collocation.html"><i class="fa fa-check"></i><b>7</b> Collocation</a></li>
 <li class="chapter" data-level="8" data-path="topicmodel.html"><a href="topicmodel.html"><i class="fa fa-check"></i><b>8</b> Topic Model</a>
@@ -224,7 +254,629 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="representation" class="section level1 hasAnchor" number="5">
 <h1><span class="header-section-number">Chapter 5</span> Representation<a href="representation.html#representation" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="representation.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb1-2"><a href="representation.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytext)</span></code></pre></div>
+<div id="corpus-dataframe" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Corpus-dataframe<a href="representation.html#corpus-dataframe" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="representation.html#cb2-1" aria-hidden="true" tabindex="-1"></a>text <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;我家狗兒最愛睡覺&quot;</span>, </span>
+<span id="cb2-2"><a href="representation.html#cb2-2" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;我家貓兒最愛睡覺&quot;</span>, </span>
+<span id="cb2-3"><a href="representation.html#cb2-3" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;所有貓兒天生就會跑&quot;</span>, </span>
+<span id="cb2-4"><a href="representation.html#cb2-4" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;所有狗兒天生就會跑&quot;</span>, </span>
+<span id="cb2-5"><a href="representation.html#cb2-5" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;所有鳥兒天生就會飛&quot;</span>, </span>
+<span id="cb2-6"><a href="representation.html#cb2-6" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;我家狗兒老是汪汪叫&quot;</span>, </span>
+<span id="cb2-7"><a href="representation.html#cb2-7" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;我家貓兒老是喵喵叫&quot;</span>, </span>
+<span id="cb2-8"><a href="representation.html#cb2-8" aria-hidden="true" tabindex="-1"></a>          <span class="st">&quot;我家鳥兒老是啾啾叫&quot;</span>)</span>
+<span id="cb2-9"><a href="representation.html#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="representation.html#cb2-10" aria-hidden="true" tabindex="-1"></a>corpus.df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(text) <span class="sc">%&gt;%</span></span>
+<span id="cb2-11"><a href="representation.html#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">doc_id =</span> <span class="fu">paste0</span>(<span class="st">&quot;doc&quot;</span>, <span class="dv">1</span><span class="sc">:</span><span class="fu">n</span>()))</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="representation.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(jiebaR)</span>
+<span id="cb3-2"><a href="representation.html#cb3-2" aria-hidden="true" tabindex="-1"></a>cutter <span class="ot">&lt;-</span> <span class="fu">worker</span>()</span>
+<span id="cb3-3"><a href="representation.html#cb3-3" aria-hidden="true" tabindex="-1"></a>segment_not <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;喵喵&quot;</span>, <span class="st">&quot;啾啾&quot;</span>, <span class="st">&quot;汪汪&quot;</span>, <span class="st">&quot;老是&quot;</span>, <span class="st">&quot;就會&quot;</span>)</span>
+<span id="cb3-4"><a href="representation.html#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">new_user_word</span>(cutter, segment_not)</span></code></pre></div>
+<pre class="output"><code>## [1] TRUE</code></pre>
+</div>
+<div id="doc-term-pair-unnested" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Doc-Term-Pair (unnested)<a href="representation.html#doc-term-pair-unnested" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="representation.html#cb5-1" aria-hidden="true" tabindex="-1"></a>unnested.df <span class="ot">&lt;-</span> corpus.df <span class="sc">%&gt;%</span></span>
+<span id="cb5-2"><a href="representation.html#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">word =</span> purrr<span class="sc">::</span><span class="fu">map</span>(text, <span class="cf">function</span>(x)<span class="fu">segment</span>(x, cutter))) <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a href="representation.html#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">unnest</span>(word)</span>
+<span id="cb5-4"><a href="representation.html#cb5-4" aria-hidden="true" tabindex="-1"></a>unnested.df</span></code></pre></div>
+<pre class="output"><code>## # A tibble: 23 × 3
+##    text       doc_id word 
+##    &lt;chr&gt;      &lt;chr&gt;  &lt;chr&gt;
+##  1 狗兒會睡覺 doc1   狗兒 
+##  2 狗兒會睡覺 doc1   會   
+##  3 狗兒會睡覺 doc1   睡覺 
+##  4 貓兒會睡覺 doc2   貓兒 
+##  5 貓兒會睡覺 doc2   會   
+##  6 貓兒會睡覺 doc2   睡覺 
+##  7 貓兒會跑   doc3   貓兒 
+##  8 貓兒會跑   doc3   會   
+##  9 貓兒會跑   doc3   跑   
+## 10 狗兒會跑   doc4   狗兒 
+## # … with 13 more rows</code></pre>
+</div>
+<div id="doc-term-count-term-doc" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Doc-Term-Count (Term-Doc)<a href="representation.html#doc-term-count-term-doc" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="representation.html#cb7-1" aria-hidden="true" tabindex="-1"></a>dtcount <span class="ot">&lt;-</span> unnested.df <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="representation.html#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">count</span>(doc_id, word, <span class="at">sort =</span> T)</span>
+<span id="cb7-3"><a href="representation.html#cb7-3" aria-hidden="true" tabindex="-1"></a>dtcount</span></code></pre></div>
+<pre class="output"><code>## # A tibble: 23 × 3
+##    doc_id word      n
+##    &lt;chr&gt;  &lt;chr&gt; &lt;int&gt;
+##  1 doc1   狗兒      1
+##  2 doc1   會        1
+##  3 doc1   睡覺      1
+##  4 doc2   會        1
+##  5 doc2   貓兒      1
+##  6 doc2   睡覺      1
+##  7 doc3   會        1
+##  8 doc3   貓兒      1
+##  9 doc3   跑        1
+## 10 doc4   狗兒      1
+## # … with 13 more rows</code></pre>
+</div>
+<div id="doc-doc-count" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Doc-Doc-Count<a href="representation.html#doc-doc-count" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="representation.html#cb9-1" aria-hidden="true" tabindex="-1"></a>ddcount <span class="ot">&lt;-</span> unnested.df <span class="sc">%&gt;%</span></span>
+<span id="cb9-2"><a href="representation.html#cb9-2" aria-hidden="true" tabindex="-1"></a>    widyr<span class="sc">::</span><span class="fu">pairwise_count</span>(doc_id, word)</span>
+<span id="cb9-3"><a href="representation.html#cb9-3" aria-hidden="true" tabindex="-1"></a>ddcount</span></code></pre></div>
+<pre class="output"><code>## # A tibble: 28 × 3
+##    item1 item2     n
+##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;
+##  1 doc2  doc1      2
+##  2 doc3  doc1      1
+##  3 doc4  doc1      2
+##  4 doc6  doc1      1
+##  5 doc1  doc2      2
+##  6 doc3  doc2      2
+##  7 doc4  doc2      1
+##  8 doc7  doc2      1
+##  9 doc1  doc3      1
+## 10 doc2  doc3      2
+## # … with 18 more rows</code></pre>
+</div>
+<div id="term-term-count" class="section level2 hasAnchor" number="5.5">
+<h2><span class="header-section-number">5.5</span> Term-Term-Count<a href="representation.html#term-term-count" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="term-term-count-by-collocation" class="section level3 hasAnchor" number="5.5.1">
+<h3><span class="header-section-number">5.5.1</span> Term-Term-Count-by-Collocation<a href="representation.html#term-term-count-by-collocation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="representation.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(widyr)</span>
+<span id="cb11-2"><a href="representation.html#cb11-2" aria-hidden="true" tabindex="-1"></a>ttcount_collocate <span class="ot">&lt;-</span> unnested.df <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="representation.html#cb11-3" aria-hidden="true" tabindex="-1"></a>    widyr<span class="sc">::</span><span class="fu">pairwise_count</span>(word, doc_id)</span>
+<span id="cb11-4"><a href="representation.html#cb11-4" aria-hidden="true" tabindex="-1"></a>ttcount_collocate</span></code></pre></div>
+<pre class="output"><code>## # A tibble: 36 × 3
+##    item1 item2     n
+##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;
+##  1 會    狗兒      2
+##  2 睡覺  狗兒      1
+##  3 跑    狗兒      1
+##  4 汪汪  狗兒      1
+##  5 叫    狗兒      1
+##  6 狗兒  會        2
+##  7 睡覺  會        2
+##  8 貓兒  會        2
+##  9 跑    會        2
+## 10 狗兒  睡覺      1
+## # … with 26 more rows</code></pre>
+</div>
+<div id="term-term-count-by-bigram" class="section level3 hasAnchor" number="5.5.2">
+<h3><span class="header-section-number">5.5.2</span> Term-Term-Count-by-bigram<a href="representation.html#term-term-count-by-bigram" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="representation.html#cb13-1" aria-hidden="true" tabindex="-1"></a>ttcount_bigram <span class="ot">&lt;-</span> unnested.df <span class="sc">%&gt;%</span></span>
+<span id="cb13-2"><a href="representation.html#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(doc_id) <span class="sc">%&gt;%</span></span>
+<span id="cb13-3"><a href="representation.html#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">w2 =</span> <span class="fu">lead</span>(word, <span class="dv">1</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb13-4"><a href="representation.html#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(w2) <span class="sc">%&gt;%</span></span>
+<span id="cb13-5"><a href="representation.html#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb13-6"><a href="representation.html#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">w1 =</span> word) <span class="sc">%&gt;%</span></span>
+<span id="cb13-7"><a href="representation.html#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">bind_rows</span>(<span class="fu">data.frame</span>(<span class="at">w1 =</span> .<span class="sc">$</span>w2, <span class="at">w2 =</span> .<span class="sc">$</span>w1)) <span class="sc">%&gt;%</span></span>
+<span id="cb13-8"><a href="representation.html#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(w1, w2)</span>
+<span id="cb13-9"><a href="representation.html#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="representation.html#cb13-10" aria-hidden="true" tabindex="-1"></a>ttcount_bigram</span></code></pre></div>
+<pre class="output"><code>## # A tibble: 22 × 3
+##    w1    w2        n
+##    &lt;chr&gt; &lt;chr&gt; &lt;int&gt;
+##  1 狗兒  會        2
+##  2 狗兒  汪汪      1
+##  3 會    狗兒      2
+##  4 會    貓兒      2
+##  5 會    跑        2
+##  6 會    睡覺      2
+##  7 會飛  鳥兒      1
+##  8 叫    啾啾      1
+##  9 叫    喵喵      1
+## 10 叫    汪汪      1
+## # … with 12 more rows</code></pre>
+</div>
+</div>
+<div id="pivot-wide-to-matrix" class="section level2 hasAnchor" number="5.6">
+<h2><span class="header-section-number">5.6</span> Pivot-wide-to-matrix<a href="representation.html#pivot-wide-to-matrix" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="doc-term-matrix-tidy" class="section level3 hasAnchor" number="5.6.1">
+<h3><span class="header-section-number">5.6.1</span> Doc-Term-Matrix-tidy<a href="representation.html#doc-term-matrix-tidy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="representation.html#cb15-1" aria-hidden="true" tabindex="-1"></a>dtm_tidy <span class="ot">&lt;-</span> unnested.df <span class="sc">%&gt;%</span></span>
+<span id="cb15-2"><a href="representation.html#cb15-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">count</span>(doc_id, word, <span class="at">sort =</span> T) <span class="sc">%&gt;%</span></span>
+<span id="cb15-3"><a href="representation.html#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> word, <span class="at">values_from =</span> n, <span class="at">values_fill=</span><span class="dv">0</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-4"><a href="representation.html#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb15-5"><a href="representation.html#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">rownames&lt;-</span><span class="st">`</span>(.<span class="sc">$</span>doc_id) <span class="sc">%&gt;%</span></span>
+<span id="cb15-6"><a href="representation.html#cb15-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="sc">-</span>doc_id)</span>
+<span id="cb15-7"><a href="representation.html#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="representation.html#cb15-8" aria-hidden="true" tabindex="-1"></a>dtm_tidy</span></code></pre></div>
+<pre class="output"><code>##      狗兒 會 睡覺 貓兒 跑 會飛 鳥兒 叫 汪汪 喵喵 啾啾
+## doc1    1  1    1    0  0    0    0  0    0    0    0
+## doc2    0  1    1    1  0    0    0  0    0    0    0
+## doc3    0  1    0    1  1    0    0  0    0    0    0
+## doc4    1  1    0    0  1    0    0  0    0    0    0
+## doc5    0  0    0    0  0    1    1  0    0    0    0
+## doc6    1  0    0    0  0    0    0  1    1    0    0
+## doc7    0  0    0    1  0    0    0  1    0    1    0
+## doc8    0  0    0    0  0    0    1  1    0    0    1</code></pre>
+</div>
+<div id="term-document-matrix-tidy" class="section level3 hasAnchor" number="5.6.2">
+<h3><span class="header-section-number">5.6.2</span> Term-Document-Matrix-tidy<a href="representation.html#term-document-matrix-tidy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="representation.html#cb17-1" aria-hidden="true" tabindex="-1"></a>tdm_tidy <span class="ot">&lt;-</span> unnested.df <span class="sc">%&gt;%</span></span>
+<span id="cb17-2"><a href="representation.html#cb17-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">count</span>(doc_id, word, <span class="at">sort =</span> T) <span class="sc">%&gt;%</span></span>
+<span id="cb17-3"><a href="representation.html#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> doc_id, <span class="at">values_from =</span> n, <span class="at">values_fill=</span><span class="dv">0</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb17-4"><a href="representation.html#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb17-5"><a href="representation.html#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">rownames&lt;-</span><span class="st">`</span>(.<span class="sc">$</span>word) <span class="sc">%&gt;%</span></span>
+<span id="cb17-6"><a href="representation.html#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="sc">-</span>word)</span>
+<span id="cb17-7"><a href="representation.html#cb17-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-8"><a href="representation.html#cb17-8" aria-hidden="true" tabindex="-1"></a>tdm_tidy</span></code></pre></div>
+<pre class="output"><code>##      doc1 doc2 doc3 doc4 doc5 doc6 doc7 doc8
+## 狗兒    1    0    0    1    0    1    0    0
+## 會      1    1    1    1    0    0    0    0
+## 睡覺    1    1    0    0    0    0    0    0
+## 貓兒    0    1    1    0    0    0    1    0
+## 跑      0    0    1    1    0    0    0    0
+## 會飛    0    0    0    0    1    0    0    0
+## 鳥兒    0    0    0    0    1    0    0    1
+## 叫      0    0    0    0    0    1    1    1
+## 汪汪    0    0    0    0    0    1    0    0
+## 喵喵    0    0    0    0    0    0    1    0
+## 啾啾    0    0    0    0    0    0    0    1</code></pre>
+</div>
+<div id="term-term-matrix" class="section level3 hasAnchor" number="5.6.3">
+<h3><span class="header-section-number">5.6.3</span> Term-Term-Matrix<a href="representation.html#term-term-matrix" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="representation.html#cb19-1" aria-hidden="true" tabindex="-1"></a>affmatrix <span class="ot">&lt;-</span> ttcount_bigram <span class="sc">%&gt;%</span> </span>
+<span id="cb19-2"><a href="representation.html#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> w2, <span class="at">values_from =</span> n, <span class="at">values_fill =</span> <span class="dv">0</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-3"><a href="representation.html#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb19-4"><a href="representation.html#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">rownames&lt;-</span><span class="st">`</span>(.<span class="sc">$</span>w1) <span class="sc">%&gt;%</span></span>
+<span id="cb19-5"><a href="representation.html#cb19-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="sc">-</span>w1)</span></code></pre></div>
+</div>
+</div>
+<div id="tidytext-to-matrix" class="section level2 hasAnchor" number="5.7">
+<h2><span class="header-section-number">5.7</span> tidytext-to-matrix<a href="representation.html#tidytext-to-matrix" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="sparsettm" class="section level3 hasAnchor" number="5.7.1">
+<h3><span class="header-section-number">5.7.1</span> sparse(ttm)<a href="representation.html#sparsettm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="representation.html#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytext)</span>
+<span id="cb20-2"><a href="representation.html#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="representation.html#cb20-3" aria-hidden="true" tabindex="-1"></a>sparse_ttm <span class="ot">&lt;-</span> ttcount_bigram <span class="sc">%&gt;%</span> tidytext<span class="sc">::</span><span class="fu">cast_sparse</span>(w1, w2, n)</span>
+<span id="cb20-4"><a href="representation.html#cb20-4" aria-hidden="true" tabindex="-1"></a>sparse_ttm</span></code></pre></div>
+<pre class="output"><code>## 11 x 11 sparse Matrix of class &quot;dgCMatrix&quot;
+##                           
+## 狗兒 2 1 1 1 . . . . . . .
+## 會   . . 2 . 2 2 2 . . . .
+## 會飛 . . . . 1 . . 1 . . .
+## 叫   . . . 1 . 1 . 1 1 1 .
+## 啾啾 . . . . . . . 1 . . 1
+## 貓兒 2 . . . . . 2 . . 1 1
+## 喵喵 . . . . . 1 . . . . 1
+## 鳥兒 . 1 1 . . . . . 1 . 1
+## 跑   2 . . . 1 . . 1 . . .
+## 睡覺 2 . . . . 2 . . . . .
+## 汪汪 . . . . 1 . . . . . 1</code></pre>
+</div>
+<div id="dfm" class="section level3 hasAnchor" number="5.7.2">
+<h3><span class="header-section-number">5.7.2</span> dfm<a href="representation.html#dfm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="representation.html#cb22-1" aria-hidden="true" tabindex="-1"></a>dfm <span class="ot">&lt;-</span> dtcount <span class="sc">%&gt;%</span> tidytext<span class="sc">::</span><span class="fu">cast_dfm</span>(doc_id, word, n)</span>
+<span id="cb22-2"><a href="representation.html#cb22-2" aria-hidden="true" tabindex="-1"></a>dfm</span></code></pre></div>
+<pre class="output"><code>## Document-feature matrix of: 8 documents, 11 features (73.86% sparse) and 0 docvars.
+##       features
+## docs   狗兒 會 睡覺 貓兒 跑 會飛 鳥兒 叫 汪汪 喵喵
+##   doc1    1  1    1    0  0    0    0  0    0    0
+##   doc2    0  1    1    1  0    0    0  0    0    0
+##   doc3    0  1    0    1  1    0    0  0    0    0
+##   doc4    1  1    0    0  1    0    0  0    0    0
+##   doc5    0  0    0    0  0    1    1  0    0    0
+##   doc6    1  0    0    0  0    0    0  1    1    0
+## [ reached max_ndoc ... 2 more documents, reached max_nfeat ... 1 more feature ]</code></pre>
+</div>
+<div id="dtm" class="section level3 hasAnchor" number="5.7.3">
+<h3><span class="header-section-number">5.7.3</span> dtm<a href="representation.html#dtm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="representation.html#cb24-1" aria-hidden="true" tabindex="-1"></a>dtm <span class="ot">&lt;-</span> dtcount <span class="sc">%&gt;%</span> tidytext<span class="sc">::</span><span class="fu">cast_dtm</span>(doc_id, word, n)</span>
+<span id="cb24-2"><a href="representation.html#cb24-2" aria-hidden="true" tabindex="-1"></a>dtm</span></code></pre></div>
+<pre class="output"><code>## &lt;&lt;DocumentTermMatrix (documents: 8, terms: 11)&gt;&gt;
+## Non-/sparse entries: 23/65
+## Sparsity           : 74%
+## Maximal term length: 2
+## Weighting          : term frequency (tf)</code></pre>
+</div>
+<div id="tdm" class="section level3 hasAnchor" number="5.7.4">
+<h3><span class="header-section-number">5.7.4</span> tdm<a href="representation.html#tdm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="representation.html#cb26-1" aria-hidden="true" tabindex="-1"></a>tdm <span class="ot">&lt;-</span> dtcount <span class="sc">%&gt;%</span> tidytext<span class="sc">::</span><span class="fu">cast_tdm</span>(word, doc_id, n)</span>
+<span id="cb26-2"><a href="representation.html#cb26-2" aria-hidden="true" tabindex="-1"></a>tdm</span></code></pre></div>
+<pre class="output"><code>## &lt;&lt;TermDocumentMatrix (terms: 11, documents: 8)&gt;&gt;
+## Non-/sparse entries: 23/65
+## Sparsity           : 74%
+## Maximal term length: 2
+## Weighting          : term frequency (tf)</code></pre>
+</div>
+</div>
+<div id="dimension-reduction" class="section level2 hasAnchor" number="5.8">
+<h2><span class="header-section-number">5.8</span> Dimension Reduction<a href="representation.html#dimension-reduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="t-sne-on-tt-affmatrix" class="section level3 hasAnchor" number="5.8.1">
+<h3><span class="header-section-number">5.8.1</span> t-SNE on tt affmatrix<a href="representation.html#t-sne-on-tt-affmatrix" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="representation.html#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tsne)</span>
+<span id="cb28-2"><a href="representation.html#cb28-2" aria-hidden="true" tabindex="-1"></a>tsne.affmatrix <span class="ot">&lt;-</span> <span class="fu">tsne</span>(affmatrix, <span class="at">initial_config =</span> <span class="cn">NULL</span>, <span class="at">k =</span> <span class="dv">2</span>, <span class="at">initial_dims =</span> <span class="dv">30</span>, </span>
+<span id="cb28-3"><a href="representation.html#cb28-3" aria-hidden="true" tabindex="-1"></a>                <span class="at">perplexity =</span> <span class="dv">30</span>, <span class="at">max_iter =</span> <span class="dv">100</span>, <span class="at">min_cost =</span> <span class="dv">0</span>, </span>
+<span id="cb28-4"><a href="representation.html#cb28-4" aria-hidden="true" tabindex="-1"></a>                <span class="at">epoch_callback =</span> <span class="cn">NULL</span>, <span class="at">whiten =</span> <span class="cn">TRUE</span>, <span class="at">epoch=</span><span class="dv">20</span>)</span>
+<span id="cb28-5"><a href="representation.html#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="representation.html#cb28-6" aria-hidden="true" tabindex="-1"></a>tsne.affmatrix</span></code></pre></div>
+<pre class="output"><code>##              [,1]       [,2]
+##  [1,]  -180.02706   54.49099
+##  [2,]  2184.25869 -199.80473
+##  [3,]   295.17863  488.31992
+##  [4,]    72.47130  -97.67323
+##  [5,] -1243.98331 -218.05268
+##  [6,]  1059.11176 -144.26510
+##  [7,] -2130.58637   99.27335
+##  [8,]   110.59804   67.56151
+##  [9,]   -78.73212 -139.41877
+## [10,]   -67.62589  -15.21085
+## [11,]   -20.66365  104.77959</code></pre>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="representation.html#cb30-1" aria-hidden="true" tabindex="-1"></a>th <span class="ot">&lt;-</span> <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb30-2"><a href="representation.html#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">title =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">&quot;Heiti TC Light&quot;</span>),</span>
+<span id="cb30-3"><a href="representation.html#cb30-3" aria-hidden="true" tabindex="-1"></a>        <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">&quot;Heiti TC Light&quot;</span>))</span>
+<span id="cb30-4"><a href="representation.html#cb30-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-5"><a href="representation.html#cb30-5" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(tsne.affmatrix) <span class="sc">%&gt;%</span></span>
+<span id="cb30-6"><a href="representation.html#cb30-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bind_cols</span>(<span class="fu">data.frame</span>(<span class="at">name =</span> <span class="fu">rownames</span>(affmatrix))) <span class="sc">%&gt;%</span></span>
+<span id="cb30-7"><a href="representation.html#cb30-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(V1, V2, <span class="at">label =</span> name)) <span class="sc">+</span></span>
+<span id="cb30-8"><a href="representation.html#cb30-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">alpha =</span> <span class="fl">0.1</span>, <span class="at">color =</span> <span class="st">&quot;blue&quot;</span>) <span class="sc">+</span> </span>
+<span id="cb30-9"><a href="representation.html#cb30-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> name, <span class="at">family =</span> <span class="st">&quot;Heiti TC Light&quot;</span>), <span class="at">hjust=</span><span class="dv">0</span>, <span class="at">vjust=</span><span class="dv">0</span>, <span class="at">size =</span> <span class="dv">4</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-20-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="t-sne-on-tdm-tidy" class="section level3 hasAnchor" number="5.8.2">
+<h3><span class="header-section-number">5.8.2</span> t-SNE on tdm-tidy<a href="representation.html#t-sne-on-tdm-tidy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="representation.html#cb31-1" aria-hidden="true" tabindex="-1"></a>tsne.tdmtidy <span class="ot">&lt;-</span> <span class="fu">tsne</span>(tdm_tidy, <span class="at">initial_config =</span> <span class="cn">NULL</span>, <span class="at">k =</span> <span class="dv">2</span>, <span class="at">initial_dims =</span> <span class="dv">30</span>, </span>
+<span id="cb31-2"><a href="representation.html#cb31-2" aria-hidden="true" tabindex="-1"></a>                <span class="at">perplexity =</span> <span class="dv">30</span>, <span class="at">max_iter =</span> <span class="dv">100</span>, <span class="at">min_cost =</span> <span class="dv">0</span>, </span>
+<span id="cb31-3"><a href="representation.html#cb31-3" aria-hidden="true" tabindex="-1"></a>                <span class="at">epoch_callback =</span> <span class="cn">NULL</span>, <span class="at">whiten =</span> <span class="cn">TRUE</span>, <span class="at">epoch=</span><span class="dv">20</span>)</span>
+<span id="cb31-4"><a href="representation.html#cb31-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-5"><a href="representation.html#cb31-5" aria-hidden="true" tabindex="-1"></a>tsne.tdmtidy</span></code></pre></div>
+<pre class="output"><code>##             [,1]        [,2]
+##  [1,] -105.60122  -13.872600
+##  [2,]  -61.78977  -11.807252
+##  [3,] -975.39621 -586.363895
+##  [4,]  -82.71547    8.556449
+##  [5,] 1344.91596  293.365106
+##  [6,] -127.48003  -42.379301
+##  [7,] -126.63305    6.613439
+##  [8,] -227.72175  -88.731910
+##  [9,]  510.25223  442.441352
+## [10,]  -71.41281  -41.328900
+## [11,]  -76.41787   33.507514</code></pre>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="representation.html#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(tsne.tdmtidy) <span class="sc">%&gt;%</span></span>
+<span id="cb33-2"><a href="representation.html#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bind_cols</span>(<span class="fu">data.frame</span>(<span class="at">name =</span> <span class="fu">rownames</span>(tdm_tidy))) <span class="sc">%&gt;%</span></span>
+<span id="cb33-3"><a href="representation.html#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(V1, V2, <span class="at">label =</span> name)) <span class="sc">+</span></span>
+<span id="cb33-4"><a href="representation.html#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">alpha =</span> <span class="fl">0.1</span>, <span class="at">color =</span> <span class="st">&quot;blue&quot;</span>) <span class="sc">+</span> </span>
+<span id="cb33-5"><a href="representation.html#cb33-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> name, <span class="at">family =</span> <span class="st">&quot;Heiti TC Light&quot;</span>), <span class="at">hjust=</span><span class="dv">0</span>, <span class="at">vjust=</span><span class="dv">0</span>, <span class="at">size =</span> <span class="dv">4</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-21-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="svd-on-affmatrix" class="section level3 hasAnchor" number="5.8.3">
+<h3><span class="header-section-number">5.8.3</span> SVD on affmatrix<a href="representation.html#svd-on-affmatrix" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="representation.html#cb34-1" aria-hidden="true" tabindex="-1"></a>m.svd <span class="ot">&lt;-</span> <span class="fu">svd</span>(affmatrix)</span>
+<span id="cb34-2"><a href="representation.html#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="co"># D &lt;- diag(m.svd$d)</span></span>
+<span id="cb34-3"><a href="representation.html#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co"># m.svd$u %*% D %*% t(m.svd$v)    # X = U D V&#39;</span></span>
+<span id="cb34-4"><a href="representation.html#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="representation.html#cb34-5" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> <span class="fu">diag</span>(<span class="dv">1</span><span class="sc">/</span>m.svd<span class="sc">$</span>d[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span>
+<span id="cb34-6"><a href="representation.html#cb34-6" aria-hidden="true" tabindex="-1"></a>u <span class="ot">&lt;-</span> m.svd<span class="sc">$</span>u</span>
+<span id="cb34-7"><a href="representation.html#cb34-7" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> m.svd<span class="sc">$</span>v</span>
+<span id="cb34-8"><a href="representation.html#cb34-8" aria-hidden="true" tabindex="-1"></a>us <span class="ot">&lt;-</span> <span class="fu">as.matrix</span>(u[, <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span>
+<span id="cb34-9"><a href="representation.html#cb34-9" aria-hidden="true" tabindex="-1"></a>vs <span class="ot">&lt;-</span> <span class="fu">as.matrix</span>(v[, <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span>
+<span id="cb34-10"><a href="representation.html#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="representation.html#cb34-11" aria-hidden="true" tabindex="-1"></a>(m.ginv <span class="ot">&lt;-</span> vs <span class="sc">%*%</span> ds <span class="sc">%*%</span> <span class="fu">t</span>(us))</span></code></pre></div>
+<pre class="output"><code>##               [,1]         [,2]         [,3]         [,4]         [,5]
+##  [1,]  0.120614363 -0.089721209 -0.008222734  0.018471534  0.011481087
+##  [2,]  0.014921607 -0.008222734 -0.002960170 -0.010419551  0.004397012
+##  [3,] -0.017753911  0.109502390  0.011550361 -0.003687427  0.004358705
+##  [4,]  0.020192669 -0.012971698  0.004557535  0.035237247 -0.005044012
+##  [5,] -0.021835960  0.120614363  0.014921607  0.008135661  0.001713732
+##  [6,]  0.001574489  0.112266218  0.035101575  0.128728838 -0.021317289
+##  [7,] -0.007551848  0.104599655 -0.002860689 -0.080981933  0.022886292
+##  [8,]  0.018538218 -0.003188655  0.006427480  0.039619690 -0.005705802
+##  [9,]  0.001713732  0.011481087  0.004397012  0.017832904 -0.002939496
+## [10,]  0.016054232 -0.003196673 -0.002728251 -0.012112178  0.005272039
+## [11,]  0.008135661  0.018471534 -0.010419551 -0.069354249  0.017832904
+##               [,6]         [,7]         [,8]         [,9]        [,10]
+##  [1,]  0.112266218 -0.003196673 -0.003188655  0.109502390  0.104599655
+##  [2,]  0.035101575 -0.002728251  0.006427480  0.011550361 -0.002860689
+##  [3,]  0.021976105  0.012298942  0.022657530 -0.016031295 -0.019199254
+##  [4,] -0.031295193  0.006532805 -0.015690612  0.023407137  0.057238335
+##  [5,]  0.001574489  0.016054232  0.018538218 -0.017753911 -0.007551848
+##  [6,] -0.158347905  0.041362300 -0.036889137  0.021976105  0.157313188
+##  [7,]  0.157313188 -0.004346598  0.061309528 -0.019199254 -0.108017077
+##  [8,] -0.036889137  0.008627792 -0.015970564  0.022657530  0.061309528
+##  [9,] -0.021317289  0.005272039 -0.005705802  0.004358705  0.022886292
+## [10,]  0.041362300 -0.002420348  0.008627792  0.012298942 -0.004346598
+## [11,]  0.128728838 -0.012112178  0.039619690 -0.003687427 -0.080981933
+##              [,11]
+##  [1,] -0.012971698
+##  [2,]  0.004557535
+##  [3,]  0.023407137
+##  [4,] -0.015721576
+##  [5,]  0.020192669
+##  [6,] -0.031295193
+##  [7,]  0.057238335
+##  [8,] -0.015690612
+##  [9,] -0.005044012
+## [10,]  0.006532805
+## [11,]  0.035237247</code></pre>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="representation.html#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(m.svd<span class="sc">$</span>v, <span class="at">type=</span><span class="st">&quot;n&quot;</span>)</span>
+<span id="cb36-2"><a href="representation.html#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(m.svd<span class="sc">$</span>v[,<span class="dv">1</span>], m.svd<span class="sc">$</span>v[,<span class="dv">2</span>], <span class="at">labels=</span><span class="fu">rownames</span>(affmatrix), <span class="at">cex=</span> <span class="fl">1.5</span>, <span class="at">family=</span><span class="st">&quot;Heiti TC Light&quot;</span>)</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-22-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="representation.html#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(m.ginv, <span class="at">type=</span><span class="st">&quot;n&quot;</span>)</span>
+<span id="cb37-2"><a href="representation.html#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(m.ginv[,<span class="dv">1</span>], m.ginv[,<span class="dv">2</span>], <span class="at">labels=</span><span class="fu">rownames</span>(affmatrix), <span class="at">cex=</span> <span class="fl">1.5</span>, <span class="at">family=</span><span class="st">&quot;Heiti TC Light&quot;</span>)</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-22-2.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="svd-on-sparse_ttm" class="section level3 hasAnchor" number="5.8.4">
+<h3><span class="header-section-number">5.8.4</span> SVD on sparse_ttm<a href="representation.html#svd-on-sparse_ttm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="representation.html#cb38-1" aria-hidden="true" tabindex="-1"></a>m.svd <span class="ot">&lt;-</span> <span class="fu">svd</span>(sparse_ttm)</span>
+<span id="cb38-2"><a href="representation.html#cb38-2" aria-hidden="true" tabindex="-1"></a>D <span class="ot">&lt;-</span> <span class="fu">diag</span>(m.svd<span class="sc">$</span>d)</span>
+<span id="cb38-3"><a href="representation.html#cb38-3" aria-hidden="true" tabindex="-1"></a>m.svd<span class="sc">$</span>u <span class="sc">%*%</span> D <span class="sc">%*%</span> <span class="fu">t</span>(m.svd<span class="sc">$</span>v)    <span class="co"># X = U D V&#39;</span></span></code></pre></div>
+<pre class="output"><code>##                            [,1]                       [,2]
+##  [1,]  1.9999999999999984456878  0.99999999999999855671007
+##  [2,]  0.0000000000000036225363  0.00000000000000091246455
+##  [3,]  0.0000000000000002289835 -0.00000000000000002775558
+##  [4,]  0.0000000000000003365364 -0.00000000000000024633073
+##  [5,] -0.0000000000000001595946 -0.00000000000000005551115
+##  [6,]  1.9999999999999982236432  0.00000000000000030184188
+##  [7,]  0.0000000000000002966377  0.00000000000000074246165
+##  [8,]  0.0000000000000005134781  0.99999999999999933386619
+##  [9,]  1.9999999999999991118216 -0.00000000000000047184479
+## [10,]  1.9999999999999993338662 -0.00000000000000028102520
+## [11,]  0.0000000000000006375109 -0.00000000000000039898640
+##                            [,3]                      [,4]
+##  [1,]  1.0000000000000004440892  0.9999999999999992228439
+##  [2,]  1.9999999999999997779554  0.0000000000000002563054
+##  [3,] -0.0000000000000004857226  0.0000000000000004371503
+##  [4,] -0.0000000000000006661338  0.9999999999999986677324
+##  [5,]  0.0000000000000001712346  0.0000000000000004463270
+##  [6,]  0.0000000000000014051260  0.0000000000000005728924
+##  [7,] -0.0000000000000003893067  0.0000000000000008949786
+##  [8,]  0.9999999999999993338662 -0.0000000000000007071167
+##  [9,]  0.0000000000000005504104 -0.0000000000000002936713
+## [10,]  0.0000000000000002024596 -0.0000000000000007163714
+## [11,] -0.0000000000000011697067  0.0000000000000002598442
+##                            [,5]                        [,6]
+##  [1,] -0.0000000000000005767956 -0.000000000000000055944832
+##  [2,]  1.9999999999999984456878  1.999999999999999111821580
+##  [3,]  0.9999999999999994448885 -0.000000000000000503069808
+##  [4,] -0.0000000000000006192963  0.999999999999999888977698
+##  [5,] -0.0000000000000003799044  0.000000000000000208166817
+##  [6,]  0.0000000000000019160021 -0.000000000000000955832635
+##  [7,] -0.0000000000000006804453  1.000000000000000666133815
+##  [8,] -0.0000000000000004586175 -0.000000000000000009107298
+##  [9,]  1.0000000000000006661338  0.000000000000000140512602
+## [10,] -0.0000000000000004427882  2.000000000000000888178420
+## [11,]  1.0000000000000006661338 -0.000000000000000301408204
+##                             [,7]                       [,8]
+##  [1,]  0.00000000000000019905952  0.00000000000000003035766
+##  [2,]  1.99999999999999933386619  0.00000000000000006028164
+##  [3,] -0.00000000000000002428613  1.00000000000000022204460
+##  [4,]  0.00000000000000002428613  1.00000000000000000000000
+##  [5,]  0.00000000000000005427946  0.99999999999999966693309
+##  [6,]  1.99999999999999977795540 -0.00000000000000019775848
+##  [7,] -0.00000000000000091260326 -0.00000000000000032807958
+##  [8,]  0.00000000000000087343327  0.00000000000000025999168
+##  [9,]  0.00000000000000039848336  0.99999999999999877875467
+## [10,] -0.00000000000000040368753  0.00000000000000037600131
+## [11,]  0.00000000000000025030322  0.00000000000000023700659
+##                            [,9]                       [,10]
+##  [1,]  0.0000000000000002749537  0.000000000000000047271215
+##  [2,] -0.0000000000000007077672  0.000000000000000223345648
+##  [3,]  0.0000000000000012351231  0.000000000000000662664368
+##  [4,]  1.0000000000000000000000  0.999999999999999666933093
+##  [5,]  0.0000000000000004237756  0.000000000000000057974528
+##  [6,]  0.0000000000000010616508  0.999999999999999222843883
+##  [7,]  0.0000000000000005974735  0.000000000000000411406880
+##  [8,]  0.9999999999999994448885 -0.000000000000000121430643
+##  [9,] -0.0000000000000003075491 -0.000000000000000002463377
+## [10,] -0.0000000000000001937860 -0.000000000000000236061101
+## [11,] -0.0000000000000001738367  0.000000000000000375428924
+##                           [,11]
+##  [1,]  0.0000000000000005711577
+##  [2,]  0.0000000000000001795439
+##  [3,]  0.0000000000000001110223
+##  [4,]  0.0000000000000011973929
+##  [5,]  0.9999999999999996669331
+##  [6,]  0.9999999999999992228439
+##  [7,]  0.9999999999999998889777
+##  [8,]  0.9999999999999991118216
+##  [9,] -0.0000000000000009939966
+## [10,]  0.0000000000000003443426
+## [11,]  0.9999999999999988897770</code></pre>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="representation.html#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(m.svd<span class="sc">$</span>v, <span class="at">type=</span><span class="st">&quot;n&quot;</span>)</span>
+<span id="cb40-2"><a href="representation.html#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(m.svd<span class="sc">$</span>v[,<span class="dv">1</span>], m.svd<span class="sc">$</span>v[,<span class="dv">2</span>], <span class="at">labels=</span><span class="fu">rownames</span>(affmatrix), <span class="at">cex=</span> <span class="fl">1.5</span>, <span class="at">family=</span><span class="st">&quot;Heiti TC Light&quot;</span>)</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-23-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="svd-on-tdm" class="section level3 hasAnchor" number="5.8.5">
+<h3><span class="header-section-number">5.8.5</span> SVD on tdm<a href="representation.html#svd-on-tdm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="representation.html#cb41-1" aria-hidden="true" tabindex="-1"></a>m.svd <span class="ot">&lt;-</span> <span class="fu">svd</span>(tdm)</span>
+<span id="cb41-2"><a href="representation.html#cb41-2" aria-hidden="true" tabindex="-1"></a>D <span class="ot">&lt;-</span> <span class="fu">diag</span>(m.svd<span class="sc">$</span>d)</span>
+<span id="cb41-3"><a href="representation.html#cb41-3" aria-hidden="true" tabindex="-1"></a>m.svd<span class="sc">$</span>u <span class="sc">%*%</span> D <span class="sc">%*%</span> <span class="fu">t</span>(m.svd<span class="sc">$</span>v)    <span class="co"># X = U D V&#39;</span></span></code></pre></div>
+<pre class="output"><code>##                             [,1]                       [,2]
+##  [1,]  1.00000000000000000000000  0.00000000000000016075728
+##  [2,]  1.00000000000000044408921  1.00000000000000044408921
+##  [3,]  1.00000000000000000000000  0.99999999999999977795540
+##  [4,] -0.00000000000000052157976  0.99999999999999988897770
+##  [5,]  0.00000000000000016421142 -0.00000000000000028607574
+##  [6,]  0.00000000000000017329721  0.00000000000000014589191
+##  [7,]  0.00000000000000024568749  0.00000000000000005268495
+##  [8,] -0.00000000000000025288919 -0.00000000000000036640709
+##  [9,]  0.00000000000000025433776 -0.00000000000000033760449
+## [10,] -0.00000000000000057832951 -0.00000000000000014331546
+## [11,]  0.00000000000000006793661  0.00000000000000005696348
+##                             [,3]                        [,4]
+##  [1,]  0.00000000000000004740954  0.999999999999999777955395
+##  [2,]  1.00000000000000044408921  1.000000000000000222044605
+##  [3,]  0.00000000000000040571289  0.000000000000000003681852
+##  [4,]  0.99999999999999988897770 -0.000000000000000311087509
+##  [5,]  1.00000000000000000000000  1.000000000000000222044605
+##  [6,] -0.00000000000000038303609 -0.000000000000000109625374
+##  [7,] -0.00000000000000086124330 -0.000000000000000254183897
+##  [8,] -0.00000000000000038529989 -0.000000000000000515021598
+##  [9,] -0.00000000000000021750702 -0.000000000000000226582188
+## [10,]  0.00000000000000017107104  0.000000000000000189751447
+## [11,] -0.00000000000000040276475 -0.000000000000000252960722
+##                             [,5]                       [,6]
+##  [1,] -0.00000000000000015552985  0.99999999999999977795540
+##  [2,] -0.00000000000000008326673 -0.00000000000000072901038
+##  [3,]  0.00000000000000046490589  0.00000000000000009757103
+##  [4,]  0.00000000000000012777427  0.00000000000000029143354
+##  [5,] -0.00000000000000078409501 -0.00000000000000055708815
+##  [6,]  0.99999999999999955591079  0.00000000000000008086357
+##  [7,]  1.00000000000000022204460  0.00000000000000082799624
+##  [8,]  0.00000000000000061062266  1.00000000000000155431223
+##  [9,] -0.00000000000000018735014  1.00000000000000022204460
+## [10,]  0.00000000000000010408341  0.00000000000000027755576
+## [11,]  0.00000000000000033306691  0.00000000000000073226656
+##                             [,7]                      [,8]
+##  [1,] -0.00000000000000052735594 -0.0000000000000003484733
+##  [2,] -0.00000000000000005508464 -0.0000000000000004857226
+##  [3,] -0.00000000000000069778535  0.0000000000000001526557
+##  [4,]  1.00000000000000133226763  0.0000000000000006954180
+##  [5,]  0.00000000000000011993784 -0.0000000000000007632783
+##  [6,]  0.00000000000000027995891  0.0000000000000003330669
+##  [7,]  0.00000000000000050080194  1.0000000000000013322676
+##  [8,]  1.00000000000000111022302  1.0000000000000015543122
+##  [9,]  0.00000000000000038857806  0.0000000000000002142383
+## [10,]  1.00000000000000022204460  0.0000000000000005906733
+## [11,]  0.00000000000000026693416  1.0000000000000006661338</code></pre>
+<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="representation.html#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(m.svd<span class="sc">$</span>v, <span class="at">type=</span><span class="st">&quot;n&quot;</span>)</span>
+<span id="cb43-2"><a href="representation.html#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(m.svd<span class="sc">$</span>v[,<span class="dv">1</span>], m.svd<span class="sc">$</span>v[,<span class="dv">2</span>], <span class="at">labels=</span><span class="fu">rownames</span>(tdm), <span class="at">cex=</span> <span class="fl">1.5</span>, <span class="at">family=</span><span class="st">&quot;Heiti TC Light&quot;</span>)</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-24-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="svd-on-dtm" class="section level3 hasAnchor" number="5.8.6">
+<h3><span class="header-section-number">5.8.6</span> SVD on dtm<a href="representation.html#svd-on-dtm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="representation.html#cb44-1" aria-hidden="true" tabindex="-1"></a>m.svd <span class="ot">&lt;-</span> <span class="fu">svd</span>(dtm)</span>
+<span id="cb44-2"><a href="representation.html#cb44-2" aria-hidden="true" tabindex="-1"></a>D <span class="ot">&lt;-</span> <span class="fu">diag</span>(m.svd<span class="sc">$</span>d)</span>
+<span id="cb44-3"><a href="representation.html#cb44-3" aria-hidden="true" tabindex="-1"></a>m.svd<span class="sc">$</span>u <span class="sc">%*%</span> D <span class="sc">%*%</span> <span class="fu">t</span>(m.svd<span class="sc">$</span>v)    <span class="co"># X = U D V&#39;</span></span></code></pre></div>
+<pre class="output"><code>##                            [,1]                      [,2]
+## [1,]  0.99999999999999955591079  1.0000000000000000000000
+## [2,]  0.00000000000000004657358  0.9999999999999997779554
+## [3,] -0.00000000000000058780731  1.0000000000000004440892
+## [4,]  0.99999999999999855671007  1.0000000000000002220446
+## [5,] -0.00000000000000033540566  0.0000000000000006383782
+## [6,]  0.99999999999999977795540 -0.0000000000000004518811
+## [7,]  0.00000000000000062450045  0.0000000000000004380033
+## [8,]  0.00000000000000010145579  0.0000000000000006522560
+##                           [,3]                      [,4]
+## [1,]  1.0000000000000000000000  0.0000000000000007167047
+## [2,]  0.9999999999999996669331  0.9999999999999995559108
+## [3,] -0.0000000000000006477721  1.0000000000000002220446
+## [4,] -0.0000000000000007447772  0.0000000000000008514853
+## [5,] -0.0000000000000003469447 -0.0000000000000003168504
+## [6,] -0.0000000000000002507678  0.0000000000000007771561
+## [7,]  0.0000000000000003479124  0.9999999999999994448885
+## [8,]  0.0000000000000001318390 -0.0000000000000004900338
+##                            [,5]                      [,6]
+## [1,] -0.00000000000000046125016 -0.0000000000000001036478
+## [2,]  0.00000000000000010953497 -0.0000000000000001669690
+## [3,]  1.00000000000000133226763  0.0000000000000003446392
+## [4,]  1.00000000000000088817842  0.0000000000000003770057
+## [5,]  0.00000000000000047878368  1.0000000000000015543122
+## [6,] -0.00000000000000066735605 -0.0000000000000006217487
+## [7,] -0.00000000000000028327242 -0.0000000000000003774520
+## [8,] -0.00000000000000001387779 -0.0000000000000001110223
+##                           [,7]                       [,8]
+## [1,]  0.0000000000000001206700  0.00000000000000071697601
+## [2,] -0.0000000000000003301379 -0.00000000000000048278834
+## [3,]  0.0000000000000004389134 -0.00000000000000006451692
+## [4,]  0.0000000000000004241115  0.00000000000000023278509
+## [5,]  1.0000000000000015543122 -0.00000000000000055511151
+## [6,] -0.0000000000000003526040  1.00000000000000066613381
+## [7,] -0.0000000000000010351747  0.99999999999999955591079
+## [8,]  1.0000000000000002220446  0.99999999999999944488849
+##                            [,9]                      [,10]
+## [1,]  0.00000000000000005124254  0.00000000000000057859848
+## [2,] -0.00000000000000002348696 -0.00000000000000019002042
+## [3,]  0.00000000000000019002042 -0.00000000000000055938013
+## [4,] -0.00000000000000055084290  0.00000000000000058713570
+## [5,] -0.00000000000000048919202 -0.00000000000000034347525
+## [6,]  1.00000000000000088817842  0.00000000000000005551115
+## [7,]  0.00000000000000011102230  0.99999999999999988897770
+## [8,] -0.00000000000000048225313 -0.00000000000000046143644
+##                           [,11]
+## [1,]  0.00000000000000021501986
+## [2,] -0.00000000000000013869203
+## [3,]  0.00000000000000008735116
+## [4,]  0.00000000000000013122400
+## [5,]  0.00000000000000016653345
+## [6,]  0.00000000000000002440308
+## [7,] -0.00000000000000069053690
+## [8,]  1.00000000000000022204460</code></pre>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="representation.html#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(m.svd<span class="sc">$</span>v, <span class="at">type=</span><span class="st">&quot;n&quot;</span>)</span>
+<span id="cb46-2"><a href="representation.html#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="fu">text</span>(m.svd<span class="sc">$</span>v[,<span class="dv">1</span>], m.svd<span class="sc">$</span>v[,<span class="dv">2</span>], <span class="at">labels=</span><span class="fu">rownames</span>(dtm), <span class="at">cex=</span> <span class="fl">1.5</span>, <span class="at">family=</span><span class="st">&quot;Heiti TC Light&quot;</span>)</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-25-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="viz-dim-reduction" class="section level3 hasAnchor" number="5.8.7">
+<h3><span class="header-section-number">5.8.7</span> Viz Dim Reduction<a href="representation.html#viz-dim-reduction" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="representation.html#cb47-1" aria-hidden="true" tabindex="-1"></a>affmatrix <span class="sc">%&gt;%</span></span>
+<span id="cb47-2"><a href="representation.html#cb47-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rownames_to_column</span>(<span class="at">var =</span> <span class="st">&quot;w1&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb47-3"><a href="representation.html#cb47-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">&quot;w2&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;n&quot;</span>, <span class="sc">-</span>w1) <span class="sc">%&gt;%</span></span>
+<span id="cb47-4"><a href="representation.html#cb47-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(w1, w2, <span class="at">fill=</span>n) <span class="sc">+</span></span>
+<span id="cb47-5"><a href="representation.html#cb47-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>() <span class="sc">+</span> th</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-26-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="representation.html#cb48-1" aria-hidden="true" tabindex="-1"></a>m.svd <span class="ot">&lt;-</span> <span class="fu">svd</span>(affmatrix)</span>
+<span id="cb48-2"><a href="representation.html#cb48-2" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> <span class="fu">diag</span>(<span class="dv">1</span><span class="sc">/</span>m.svd<span class="sc">$</span>d[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span>
+<span id="cb48-3"><a href="representation.html#cb48-3" aria-hidden="true" tabindex="-1"></a>u <span class="ot">&lt;-</span> m.svd<span class="sc">$</span>u</span>
+<span id="cb48-4"><a href="representation.html#cb48-4" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> m.svd<span class="sc">$</span>v</span>
+<span id="cb48-5"><a href="representation.html#cb48-5" aria-hidden="true" tabindex="-1"></a>us <span class="ot">&lt;-</span> <span class="fu">as.matrix</span>(u[, <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span>
+<span id="cb48-6"><a href="representation.html#cb48-6" aria-hidden="true" tabindex="-1"></a>vs <span class="ot">&lt;-</span> <span class="fu">as.matrix</span>(v[, <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span>
+<span id="cb48-7"><a href="representation.html#cb48-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-8"><a href="representation.html#cb48-8" aria-hidden="true" tabindex="-1"></a>(m.ginv <span class="ot">&lt;-</span> vs <span class="sc">%*%</span> ds <span class="sc">%*%</span> <span class="fu">t</span>(us))</span></code></pre></div>
+<pre class="output"><code>##               [,1]         [,2]         [,3]         [,4]         [,5]
+##  [1,]  0.120614363 -0.089721209 -0.008222734  0.018471534  0.011481087
+##  [2,]  0.014921607 -0.008222734 -0.002960170 -0.010419551  0.004397012
+##  [3,] -0.017753911  0.109502390  0.011550361 -0.003687427  0.004358705
+##  [4,]  0.020192669 -0.012971698  0.004557535  0.035237247 -0.005044012
+##  [5,] -0.021835960  0.120614363  0.014921607  0.008135661  0.001713732
+##  [6,]  0.001574489  0.112266218  0.035101575  0.128728838 -0.021317289
+##  [7,] -0.007551848  0.104599655 -0.002860689 -0.080981933  0.022886292
+##  [8,]  0.018538218 -0.003188655  0.006427480  0.039619690 -0.005705802
+##  [9,]  0.001713732  0.011481087  0.004397012  0.017832904 -0.002939496
+## [10,]  0.016054232 -0.003196673 -0.002728251 -0.012112178  0.005272039
+## [11,]  0.008135661  0.018471534 -0.010419551 -0.069354249  0.017832904
+##               [,6]         [,7]         [,8]         [,9]        [,10]
+##  [1,]  0.112266218 -0.003196673 -0.003188655  0.109502390  0.104599655
+##  [2,]  0.035101575 -0.002728251  0.006427480  0.011550361 -0.002860689
+##  [3,]  0.021976105  0.012298942  0.022657530 -0.016031295 -0.019199254
+##  [4,] -0.031295193  0.006532805 -0.015690612  0.023407137  0.057238335
+##  [5,]  0.001574489  0.016054232  0.018538218 -0.017753911 -0.007551848
+##  [6,] -0.158347905  0.041362300 -0.036889137  0.021976105  0.157313188
+##  [7,]  0.157313188 -0.004346598  0.061309528 -0.019199254 -0.108017077
+##  [8,] -0.036889137  0.008627792 -0.015970564  0.022657530  0.061309528
+##  [9,] -0.021317289  0.005272039 -0.005705802  0.004358705  0.022886292
+## [10,]  0.041362300 -0.002420348  0.008627792  0.012298942 -0.004346598
+## [11,]  0.128728838 -0.012112178  0.039619690 -0.003687427 -0.080981933
+##              [,11]
+##  [1,] -0.012971698
+##  [2,]  0.004557535
+##  [3,]  0.023407137
+##  [4,] -0.015721576
+##  [5,]  0.020192669
+##  [6,] -0.031295193
+##  [7,]  0.057238335
+##  [8,] -0.015690612
+##  [9,] -0.005044012
+## [10,]  0.006532805
+## [11,]  0.035237247</code></pre>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="representation.html#cb50-1" aria-hidden="true" tabindex="-1"></a>m.ginv <span class="sc">%&gt;%</span> <span class="fu">as_tibble</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb50-2"><a href="representation.html#cb50-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">w1 =</span> <span class="fu">row.names</span>(affmatrix)) <span class="sc">%&gt;%</span></span>
+<span id="cb50-3"><a href="representation.html#cb50-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">&quot;w2&quot;</span>, <span class="at">values_to =</span> <span class="st">&quot;n&quot;</span>, <span class="sc">-</span>w1) <span class="sc">%&gt;%</span></span>
+<span id="cb50-4"><a href="representation.html#cb50-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">aes</span>(w2, w1, <span class="at">fill=</span>n) <span class="sc">+</span></span>
+<span id="cb50-5"><a href="representation.html#cb50-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>() <span class="sc">+</span> th <span class="sc">+</span> </span>
+<span id="cb50-6"><a href="representation.html#cb50-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_gradient2</span>(<span class="at">low =</span> <span class="st">&quot;blue&quot;</span>, <span class="at">high =</span> <span class="st">&quot;blue&quot;</span>)</span></code></pre></div>
+<p><img src="%E7%A4%BE%E7%BE%A4%E8%BC%BF%E8%AB%96%E5%88%86%E6%9E%90-R-_files/figure-html/unnamed-chunk-27-1.png" width="100%" style="display: block; margin: auto;" /></p>
 
+</div>
+</div>
 </div>
             </section>
 
