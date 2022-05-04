@@ -3,12 +3,14 @@ tab:nice-tab
 editing-notes
 introduction
 diagram-testing
-copus
+corpus
 tokenization
+representation
 keyness
 collocation
-embedding
 topicmodel
+lsa
+lda
 stm
 setups
 pre-processing
@@ -17,6 +19,8 @@ ldavis
 validating
 exploring-model
 other
+embedding
+skipgramtidy
 introbookdown
 literature
 methods

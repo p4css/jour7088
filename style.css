@@ -16,9 +16,9 @@ pre code {
 }
 
 .notes{
-  padding: 5px;
-  border-radius: 5px;
-  background-color:Khaki;
+  padding: 5px !important;
+  border-radius: 5px !important;
+  background-color:Khaki !important;
 
 }
 
